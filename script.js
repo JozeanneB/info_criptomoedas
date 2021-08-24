@@ -16,13 +16,13 @@ fetch(
     let texto = `
     <div class="container" style="background-color:green;">
         <div class="row" style="padding-top: 8px;" >
-          <div class="col-lg-4" >
+          <div class="col-lg-3" >
               <h5 class="mt-2">Nome</h5>
           </div>
-          <div class="col-lg-4"">
+          <div class="col-lg-3"">
               <h5 class="mt-2">Símbolo</h5>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-6">
               <h5 class="mt-2">Primeiros Dados Históricos em</h5>
           </div>
         </div>
@@ -43,13 +43,13 @@ fetch(
         `
       <div class="container" style="background-color:${backgroundColor};">
         <div class="row" style="padding-top: 8px;" >
-          <div class="col-lg-4" >
+          <div class="col-lg-3" >
               <p style="padding-top: 6px;">${moeda.name}</p>
           </div>
-          <div class="col-lg-4"">
+          <div class="col-lg-3"">
               <p style="padding-top: 6px;">${moeda.symbol}</p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-6">
               <p style="padding-top: 6px;">${dataFormatada}</ṕ>
           </div>
         </div>
